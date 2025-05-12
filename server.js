@@ -102,3 +102,5 @@ db.initialize(process.env.MONGODB_CONN_STRING).then(()=>{
     console.log(err);
 })
 
+
+// app.listen(HTTP_PORT, () => console.log(`server listening on: ${HTTP_PORT}`));
